@@ -10,7 +10,6 @@ import TheBusiness.Business.Business;
 import TheBusiness.CustomerManagement.CustomerProfile;
 import TheBusiness.Personnel.Enterprise1.Organization1.FrontDeskStaffProfile;
 import TheBusiness.Personnel.Person;
-import TheBusiness.Personnel.Profile;
 import TheBusiness.UserAccountManagement.UserAccount;
 import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.FrontDeskStaffLandingPageJPanel;
 import javax.swing.JOptionPane;

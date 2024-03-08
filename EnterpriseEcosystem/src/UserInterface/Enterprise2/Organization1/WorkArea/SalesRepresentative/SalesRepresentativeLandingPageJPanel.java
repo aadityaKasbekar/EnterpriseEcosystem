@@ -5,10 +5,8 @@
 package UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative;
 
 import TheBusiness.Business.Business;
-
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonProfile;
 import TheBusiness.UserAccountManagement.UserAccount;
-
 import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp1.ManageProductsJPanel;
 import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp2.ManagePurchaseOrderJPanel;
 import UserInterface.Main.ChangePasswordJPanel;

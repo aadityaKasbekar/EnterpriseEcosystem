@@ -6,9 +6,6 @@ package UserInterface.Admin;
 
 import TheBusiness.Personnel.EmployeeProfile;
 import TheBusiness.Business.Business;
-import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
-import UserInterface.Enterprise3.Organization1.WorkArea.Customer.CustomerLandingPageJPanel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 /**

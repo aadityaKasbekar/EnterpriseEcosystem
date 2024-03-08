@@ -4,8 +4,6 @@
  */
 package TheBusiness.ProductManagement;
 
-import java.util.ArrayList;
-import TheBusiness.OrderManagement.OrderItem;
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonProfile;
 /**
  * Represents a product with a name, price, and order items.

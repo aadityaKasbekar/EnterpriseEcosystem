@@ -4,17 +4,12 @@
  */
 package UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp2;
 
-import TheBusiness.BookingManagement.Room;
 import TheBusiness.Business.Business;
 import TheBusiness.OrderManagement.Order;
 import TheBusiness.OrderManagement.OrderItem;
-import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonProfile;
 import TheBusiness.ProductManagement.Product;
-import UserInterface.Admin.AdminJPanel;
-import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.HotelManagerLandingPageJPanel;
 import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.SalesRepresentativeLandingPageJPanel;
-import java.util.Map;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

@@ -17,19 +17,14 @@ import TheBusiness.Personnel.Profile;
 import TheBusiness.UserAccountManagement.UserAccount;
 import TheBusiness.UserAccountManagement.UserAccountDirectory;
 import UserInterface.Admin.AdminJPanel;
-import UserInterface.Admin.ReportDashboardHotelManagementJPanel;
 import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.FrontDeskStaffLandingPageJPanel;
 import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.HotelManagerLandingPageJPanel;
-import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp1.ManageProductsJPanel;
-
 import UserInterface.Enterprise4.Organization1.WorkArea.Professor.ProfessorLandingPageJPanel;
 import UserInterface.Enterprise4.Organization1.WorkArea.Student.StudentLandingPageJPanel;
 import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.SalesRepresentativeLandingPageJPanel;
 import UserInterface.Enterprise3.Organization1.WorkArea.Customer.CustomerLandingPageJPanel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -134,7 +129,6 @@ public class MainJFrame extends javax.swing.JFrame {
 
         PasswordTextField.setBackground(new java.awt.Color(204, 204, 204));
         PasswordTextField.setFont(new java.awt.Font("Charter", 0, 14)); // NOI18N
-        PasswordTextField.setText("XXXX");
         PasswordTextField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 PasswordTextFieldActionPerformed(evt);

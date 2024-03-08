@@ -6,12 +6,9 @@ package UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.Wor
 
 import TheBusiness.Business.Business;
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonProfile;
-import TheBusiness.Personnel.Profile;
 import TheBusiness.ProductManagement.Product;
-import TheBusiness.ProductManagement.ProductDirectory;
-import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.HotelManagerLandingPageJPanel;
+import TheBusiness.ProductManagement.ProductCatalog;
 import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.SalesRepresentativeLandingPageJPanel;
-
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
@@ -277,7 +274,7 @@ public class ManageProductsJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Product cannot be created,"
                     + " please enter id and name!", "Info", JOptionPane.INFORMATION_MESSAGE);
         } else {
-            ProductDirectory pc = business.getHospitalitySupplierProductCatalog();
+            ProductCatalog pc = business.getHospitalitySupplierProductCatalog();
             String productName = txtProductName.getText();
 
             float price = Float.parseFloat(txtPrice.getText());

@@ -11,7 +11,6 @@ import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.WorkResp1.M
 import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.WorkResp2.ManageSuppliesJPanel;
 import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.WorkResp3.RecruitStudentsJPanel;
 import UserInterface.Main.ChangePasswordJPanel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 /**

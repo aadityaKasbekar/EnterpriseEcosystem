@@ -6,10 +6,7 @@ package UserInterface.Enterprise3.Organization1.WorkArea.Customer;
 
 import TheBusiness.Business.Business;
 import TheBusiness.CustomerManagement.CustomerProfile;
-import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonProfile;
 import TheBusiness.UserAccountManagement.UserAccount;
-import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.WorkResp1.ManageBookingsJPanel;
-import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp1.ManageProductsJPanel;
 import UserInterface.Enterprise3.Organization1.WorkArea.Customer.WorkResp1.BookARoomJPanel;
 import UserInterface.Enterprise3.Organization1.WorkArea.Customer.WorkResp2.ViewMyBookingsJPanel;
 import UserInterface.Main.ChangePasswordJPanel;

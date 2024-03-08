@@ -5,7 +5,6 @@
 package TheBusiness.Personnel.Enterprise1.Organization2;
 
 import TheBusiness.Business.Business;
-import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
 import TheBusiness.Personnel.Person;
 import java.util.ArrayList;
 

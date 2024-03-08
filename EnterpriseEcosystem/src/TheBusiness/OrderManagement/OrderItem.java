@@ -3,7 +3,6 @@
  * Calculates and tracks order item total, target total, and price performance.
  */
 package TheBusiness.OrderManagement;
-
 import TheBusiness.ProductManagement.Product;
 
 /**

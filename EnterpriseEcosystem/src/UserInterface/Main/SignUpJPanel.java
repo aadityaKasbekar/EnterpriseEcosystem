@@ -5,14 +5,12 @@
 package UserInterface.Main;
 
 import TheBusiness.Business.Business;
-import TheBusiness.CustomerManagement.CustomerDirectory;
 import TheBusiness.CustomerManagement.CustomerProfile;
 import TheBusiness.EducationManagement.ProfessorDirectory;
 import TheBusiness.EducationManagement.ProfessorProfile;
 import TheBusiness.EducationManagement.StudentDirectory;
 import TheBusiness.EducationManagement.StudentProfile;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelStaffDirectory;
-import TheBusiness.Personnel.Enterprise1.Organization1.FrontDeskStaffProfile;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerDirectory;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonDirectory;
@@ -214,7 +212,8 @@ public class SignUpJPanel extends javax.swing.JPanel {
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtUserName, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                            .addComponent(txtUserName, javax.swing.GroupLayout.PREFERRED_SIZE, 366, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(184, Short.MAX_VALUE))
         );
 
         layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {btnCreate, roleBox, roleBoxEnterprise, roleBoxOrganization, txtDOB, txtFullName, txtGender, txtPassword, txtPhoneNumber, txtUserName});

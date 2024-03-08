@@ -11,7 +11,7 @@ import TheBusiness.Personnel.Enterprise1.Organization1.HotelStaffDirectory;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerDirectory;
 import TheBusiness.Personnel.Enterprise1.Organization2.SalesPersonDirectory;
 import TheBusiness.Personnel.PersonDirectory;
-import TheBusiness.ProductManagement.ProductDirectory;
+import TheBusiness.ProductManagement.ProductCatalog;
 import TheBusiness.UserAccountManagement.UserAccountDirectory;
 
 /**
@@ -35,9 +35,9 @@ public class Business {
     CourseDirectory courseDirectory;
     HotelManagerDirectory hotelmanagerDirectory;
     HotelStaffDirectory hotelStaffDirectory;
-    ProductDirectory hospitalitySupplierProductCatalog;
+    ProductCatalog hospitalitySupplierProductCatalog;
     SalesPersonDirectory salesPersondirectory;
-    ProductDirectory hotelSupplyInventory;
+    ProductCatalog hotelSupplyInventory;
     RoomDirectory hotelRoomDirectory;
     BookingDirectory hotelRoomBookings;
     OrderDirectory hotelHospitalityOrders;
@@ -58,8 +58,8 @@ public class Business {
         hotelmanagerDirectory = new HotelManagerDirectory(this);
         hotelStaffDirectory = new HotelStaffDirectory(this);
         salesPersondirectory = new SalesPersonDirectory(this);
-        hospitalitySupplierProductCatalog = new ProductDirectory(this);
-        hotelSupplyInventory = new ProductDirectory(this);
+        hospitalitySupplierProductCatalog = new ProductCatalog(this);
+        hotelSupplyInventory = new ProductCatalog(this);
         hotelRoomDirectory = new RoomDirectory(this);
         hotelRoomBookings = new BookingDirectory(this);
         hotelHospitalityOrders = new OrderDirectory();
@@ -86,11 +86,11 @@ public class Business {
         return hotelStaffDirectory;
     }
 
-    public ProductDirectory getHospitalitySupplierProductCatalog() {
+    public ProductCatalog getHospitalitySupplierProductCatalog() {
         return hospitalitySupplierProductCatalog;
     }
 
-    public void setHospitalitySupplierProductCatalog(ProductDirectory hospitalitySupplierProductCatalog) {
+    public void setHospitalitySupplierProductCatalog(ProductCatalog hospitalitySupplierProductCatalog) {
         this.hospitalitySupplierProductCatalog = hospitalitySupplierProductCatalog;
     }
 
@@ -102,7 +102,7 @@ public class Business {
         this.salesPersondirectory = salesPersondirectory;
     }
 
-    public ProductDirectory getHotelSupplyInventory() {
+    public ProductCatalog getHotelSupplyInventory() {
         return this.hotelSupplyInventory;
     }
 

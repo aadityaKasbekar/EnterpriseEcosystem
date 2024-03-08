@@ -6,13 +6,9 @@ package UserInterface.Main;
 
 import TheBusiness.Business.Business;
 import TheBusiness.UserAccountManagement.UserAccount;
-import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.FrontDeskStaffLandingPageJPanel;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 
 
 /**

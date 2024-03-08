@@ -9,7 +9,6 @@ import TheBusiness.Personnel.Enterprise1.Organization1.FrontDeskStaffProfile;
 import TheBusiness.UserAccountManagement.UserAccount;
 import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.WorkResp1.ManageBookingsJPanel;
 import UserInterface.Enterprise1.Organization1.WorkArea.FrontDeskStaff.WorkResp2.BookARoomAtHotelJPanel;
-import UserInterface.Enterprise3.Organization1.WorkArea.Customer.WorkResp1.BookARoomJPanel;
 import UserInterface.Main.ChangePasswordJPanel;
 import javax.swing.JPanel;
 

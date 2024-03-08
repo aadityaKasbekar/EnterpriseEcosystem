@@ -4,14 +4,10 @@
  */
 package UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.WorkResp2;
 
-import TheBusiness.BookingManagement.Booking;
-import TheBusiness.BookingManagement.Room;
 import TheBusiness.Business.Business;
 import TheBusiness.OrderManagement.Order;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
 import TheBusiness.ProductManagement.Product;
-import TheBusiness.ProductManagement.ProductDirectory;
-import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.HotelManagerLandingPageJPanel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;

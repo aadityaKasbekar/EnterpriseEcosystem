@@ -5,15 +5,11 @@
 package UserInterface.Admin;
 
 import TheBusiness.Personnel.EmployeeProfile;
-import TheBusiness.BookingManagement.Booking;
-import TheBusiness.BookingManagement.Room;
 import TheBusiness.Business.Business;
 import TheBusiness.EducationManagement.StudentProfile;
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import javax.swing.JPanel;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;

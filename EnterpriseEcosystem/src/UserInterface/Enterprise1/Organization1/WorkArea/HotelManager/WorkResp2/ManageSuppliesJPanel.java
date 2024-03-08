@@ -8,7 +8,6 @@ import TheBusiness.Business.Business;
 import TheBusiness.Personnel.Enterprise1.Organization1.HotelManagerProfile;
 import TheBusiness.ProductManagement.Product;
 import UserInterface.Enterprise1.Organization1.WorkArea.HotelManager.HotelManagerLandingPageJPanel;
-import UserInterface.Enterprise2.Organization1.WorkArea.SalesRepresentative.WorkResp2.ManagePurchaseOrderJPanel;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 

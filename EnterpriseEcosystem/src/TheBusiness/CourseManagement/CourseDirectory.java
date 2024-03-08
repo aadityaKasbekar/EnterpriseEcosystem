@@ -23,7 +23,6 @@ public class CourseDirectory {
 
     /**
      * Constructor to initialize the CourseDirectory with an empty list.
-     * @param b
      */
     public CourseDirectory(Business b) {
         this.business = b;
